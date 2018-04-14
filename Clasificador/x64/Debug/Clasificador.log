@@ -1,0 +1,10 @@
+﻿  Uic'ing Clasificador.ui...
+  Clasificador.cpp
+  moc_Clasificador.cpp
+  main.cpp
+  Generando código...
+QtImageManager.obj : error LNK2001: símbolo externo "public: virtual struct QMetaObject const * __cdecl CQtImageManager::metaObject(void)const " (?metaObject@CQtImageManager@@UEBAPEBUQMetaObject@@XZ) sin resolver
+QtImageManager.obj : error LNK2001: símbolo externo "public: virtual void * __cdecl CQtImageManager::qt_metacast(char const *)" (?qt_metacast@CQtImageManager@@UEAAPEAXPEBD@Z) sin resolver
+QtImageManager.obj : error LNK2001: símbolo externo "public: virtual int __cdecl CQtImageManager::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@CQtImageManager@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z) sin resolver
+QtImageManager.obj : error LNK2019: símbolo externo "public: void __cdecl CQtImageManager::updateViewGL(void)" (?updateViewGL@CQtImageManager@@QEAAXXZ) sin resolver al que se hace referencia en la función "public: bool __cdecl CQtImageManager::setImage(unsigned char *,int,int,int,bool)" (?setImage@CQtImageManager@@QEAA_NPEAEHHH_N@Z)
+C:\Users\Miriam\Desktop\PSM\Clasificador\Clasificador\x64\Debug\\Clasificador.exe : fatal error LNK1120: 4 externos sin resolver
